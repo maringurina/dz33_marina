@@ -17,7 +17,7 @@ html {
   padding: 0 40px;
 }
 
-/* sifuysudyfsydfgc */
+/* start header */
 .header {
   padding-top: 20px;
   display: flex;
@@ -54,6 +54,9 @@ html {
   margin-left: auto;
 }
 
+/* finish header */
+
+/* start fs*/
 .fs {
   display: flex;
   justify-content: space-between;
@@ -78,6 +81,8 @@ html {
   font-style: normal;
   padding-top: 25px;
 }
+
+/* finish fs */
 
 .all {
   display: flex;
@@ -109,6 +114,8 @@ html {
   line-height: 170%;
 }
 
+/* question start*/
+
 .question {
   padding-top: 63px;
   padding-bottom: 83px;
@@ -118,33 +125,31 @@ html {
   color: white;
   text-align: center;
   width: 100%;
-}
-
-.learn-all {
-  display: flex;
-  align-items: center;
-}
-.learn_title {
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 150%;
-  color: rgba (255, 255, 255 0.8);
+}
+.learn_text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+
 }
 
 .item {
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+  border-radius: 20px;
+  color: white;
+  max-width: 276px;
+  padding: 12px 12px 20px 12px;
+  box-sizing: border-box;
+}
+
+.learn-all{
   display: flex;
   justify-content: center;
   min-height: 500px;
   align-items: flex-start;
-}
-.flame_img {
-  position: relative;
-  align-items: center;
-  max-width: 252px;
-  margin-bottom: 19px;
-}
-.flame1 {
   box-sizing: border-box;
   padding: 12px 12px 20px 12px;
   color: white;
@@ -156,22 +161,87 @@ html {
   border-radius: 20px;
   max-width: 276px;
 }
-.flame1 :hover {
+.item_img {
+  position: relative;
+  align-items: center;
+  max-width: 252px;
+  margin-bottom: 19px;
+}
+
+.item_img:hover {
   display: flex;
 }
 .Technology {
   color: #3bf5bd;
-  font-size: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 150%;
 }
-.all_flame h4 {
+.learn-all h4 {
   padding: 8px 0 13px 0;
   font-weight: 600;
   font-size: 18px;
   line-height: 150%;
 }
+.learn-all {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  border-bottom: 2px solid rgba(41, 43, 83, 1);
+  padding-bottom: 20px;
+
+}
+.mentor {
+  padding-top: 17px;
+  display: flex;
+}
+.mentor_name {
+  margin-left: 14px;
+}
+.mentor_name h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.mentor_name span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+}
+.learn_button {
+  padding-top: 25px;
+  display: none;
+  justify-content: center;
+}
+.learn_button a {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 12px 32px;
+  background: #F5443B;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.learn_button a:hover {
+
+}
+
+
+
+
+
+
+
+
 .bottom {
   position: absolute;
   display: flex;
