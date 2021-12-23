@@ -2,9 +2,7 @@ html {
   background: #171836;
   color: white;
   font-family: "Inter";
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
+  
 }
 * {
   padding: 0;
@@ -57,29 +55,55 @@ html {
 /* finish header */
 
 /* start fs*/
-.fs {
+.container_fs {
+  
   display: flex;
   justify-content: space-between;
+  padding-bottom: 300px;
+  box-sizing: border-box;
+}
+.info_fs {
+  display: flex;
+  justify-content: space-between;
+}
+.info_fs h1{
+  margin: 50px;
+  padding-left: 100px;
 }
 .fs__foto {
   position: relative;
   max-width: 50%;
+  top: 5px;
+  
+  z-index: 0;
   background: url(4d2310a8a4fb67d7030541292ab3b6aaa479d650_s2_n1.png);
+}
+.girl {
+  width: 150%;
+}
+
+.fs_content {
+  max-width: 42%;
+  align-items: center;
+  position: relative;
+  flex: 1 0 42%;
 }
 
 .fs__title {
   color: rgba(255, 255, 255, 0.8);
+  
   font-size: 56px;
   font-style: normal;
   line-height: 130%;
   letter-spacing: -0.01em;
+  
 }
 
 .fs__text {
   color: rgba(255, 255, 255, 0.4);
   font-size: 18px;
   font-style: normal;
-  padding-top: 25px;
+  padding-left: 155px;
 }
 
 /* finish fs */
@@ -143,11 +167,12 @@ html {
   max-width: 276px;
   padding: 12px 12px 20px 12px;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .learn-all{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 500px;
   align-items: flex-start;
   box-sizing: border-box;
@@ -171,28 +196,40 @@ html {
 .item_img:hover {
   display: flex;
 }
+.item-img span {
+  position: absolute;
+  bottom: 13px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  left: 10px;
+  padding: 6px 16px;
+  font-size: 12px;
+  line-height: 150%;
+  color: white;
+
+}
 .Technology {
   color: #3bf5bd;
   font-weight: 500;
   font-size: 12px;
   line-height: 150%;
 }
+.item p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+}
+  
+
 .learn-all h4 {
   padding: 8px 0 13px 0;
   font-weight: 600;
   font-size: 18px;
   line-height: 150%;
 }
-.learn-all {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
-  color: rgba(255, 255, 255, 0.4);
-  border-bottom: 2px solid rgba(41, 43, 83, 1);
-  padding-bottom: 20px;
 
-}
 .mentor {
   padding-top: 17px;
   display: flex;
@@ -232,15 +269,9 @@ html {
 }
 
 .learn_button a:hover {
+  background: rgb(189, 54, 47);
 
 }
-
-
-
-
-
-
-
 
 .bottom {
   position: absolute;
@@ -249,10 +280,27 @@ html {
   left: 0px;
   top: 2272px;
 }
+.bot p{
+  font-size: 16px;
+  line-height: 170%;
+  color: rgba(255, 255, 255, 0.8);
+
+  opacity: 0.6;
+}
+.social {
+  
+  justify-content: center;
+  padding-right: 100px;
+  margin-top: 20px;
+  align-items: center;
+
+
+}
 .footer {
-  position: relative;
-  display: flex;
-  height: 19px;
-  width: 75px;
-  top: 338px;
+  text-align: center;
+  color: #8F91D0;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 220px 0 30px 0;
+  
 }
