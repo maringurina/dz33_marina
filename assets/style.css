@@ -47,9 +47,31 @@ html {
   left: 1218px;
   font-size: 20px;
 }
+@media (max-width: 991px) {
+  .button {
+    padding-right: 0px;
+    left: 575px;
+  }
+}
+@media (max-width: 575px) {
+  .button {
+    padding-right: 0px;
+    left: 575px;
+  }
+}
 
 .header .button {
   margin-left: auto;
+}
+@media (max-width: 991px) {
+  .header .button {
+    padding-right: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .header .button {
+    padding-right: 0px;
+  }
 }
 
 /* finish header */
@@ -78,6 +100,18 @@ html {
   z-index: 0;
   background: url(4d2310a8a4fb67d7030541292ab3b6aaa479d650_s2_n1.png);
 }
+@media (max-width: 991px) {
+  .fs__foto {
+     display: none;
+  }
+ 
+}
+@media (max-width: 575px) {
+  .fs__foto {
+  display: none;
+}
+}
+
 .girl {
   width: 150%;
 }
@@ -97,6 +131,18 @@ html {
   line-height: 130%;
   letter-spacing: -0.01em;
   
+}
+@media (max-width: 991px) {
+  .fs__title {
+    font-size: 28px;
+  }
+  
+}
+@media (max-width: 575px) {
+  .fs__title {
+    font-size: 14px;
+    align-items: center;
+  }
 }
 
 .fs__text {
