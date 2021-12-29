@@ -232,6 +232,24 @@ html {
   border-radius: 20px;
   max-width: 276px;
 }
+@media (max-width: 991px) {
+  .learn-all {
+    display: inline;
+    width: 50%;
+  }
+}
+@media (max-width: 575px) {
+  .learn-all {
+   width: 100%;
+  }
+}
+@media (max-width: 575px){
+  .item {
+    float: left;
+  
+  }
+}
+
 .item_img {
   position: relative;
   align-items: center;
