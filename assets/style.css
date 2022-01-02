@@ -217,6 +217,7 @@ html {
 }
 
 .learn-all{
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   min-height: 500px;
@@ -230,12 +231,11 @@ html {
     rgba(40, 43, 87, 0.17) 100%
   );
   border-radius: 20px;
-  max-width: 276px;
+  
 }
 @media (max-width: 991px) {
   .learn-all {
-    display: inline;
-    width: 50%;
+    
   }
 }
 @media (max-width: 575px) {
